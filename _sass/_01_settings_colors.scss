@@ -16,9 +16,9 @@
 /* Basics
 ------------------------------------------------------------------- */
 
-$text-color         : #111;
+$text-color         : #fdfdfd; // #111;
 $body-font-color    : $text-color;
-$body-bg            : #fdfdfd;
+$body-bg            : #111; // #fdfdfd;
 
 
 
@@ -26,12 +26,12 @@ $body-bg            : #fdfdfd;
    https://color.adobe.com/de/Flat-Design-Colors-v2-color-theme-4341903/
 ------------------------------------------------------------------- */
 
-$ci-1               : #334D5C; // dark turquoise
-$ci-2               : #45B29D; // turquoise
-$ci-3               : #EFC94C; // yellow
-$ci-4               : #E27A3F; // orange
-$ci-5               : #DF4949; // red
-$ci-6               : #A1D044; // green
+$ci-1               : #c21296; // magenta
+$ci-2               : #01afec; // sky blue
+$ci-3               : #ffa101; // yellow-orange
+$ci-4               : #fe4728; // orange
+$ci-5               : #f80093; // pink
+$ci-6               : #3554af; // dark blue
 
 
 
@@ -50,22 +50,22 @@ $info-color         : $ci-1;
 /* Grey Scale
 ------------------------------------------------------------------- */
 
-$grey-1             : #E4E4E4;
-$grey-2             : #D7D7D7;
-$grey-3             : #CBCBCB;
-$grey-4             : #BEBEBE;
-$grey-5             : #A4A4A4;
-$grey-6             : #979797;
-$grey-7             : #8B8B8B;
-$grey-8             : #7E7E7E;
-$grey-9             : #646464;
-$grey-10            : #575757;
-$grey-11            : #4B4B4B;
-$grey-12            : #3E3E3E;
-$grey-13            : #313131;
-$grey-14            : #242424;
-$grey-15            : #171717;
-$grey-16            : #0B0B0B;
+$grey-16            : #E4E4E4;
+$grey-15            : #D7D7D7;
+$grey-14            : #CBCBCB;
+$grey-13            : #BEBEBE;
+$grey-12            : #A4A4A4;
+$grey-11            : #979797;
+$grey-10            : #8B8B8B;
+$grey-9             : #7E7E7E;
+$grey-8             : #646464;
+$grey-7             : #575757;
+$grey-6             : #4B4B4B;
+$grey-5             : #3E3E3E;
+$grey-4             : #313131;
+$grey-3             : #242424;
+$grey-2             : #171717;
+$grey-1             : #0B0B0B;
 
 
 
@@ -78,10 +78,10 @@ $topbar-bg          : $topbar-bg-color;
 
 $topbar-dropdown-toggle-color: $ci-1;
 
-$topbar-link-color  : #000;
-$topbar-link-color-hover: #000;
-$topbar-link-color-active: #000;
-$topbar-link-color-active-hover: #000;
+$topbar-link-color  : $text-color;
+$topbar-link-color-hover: $text-color;
+$topbar-link-color-active: $text-color;
+$topbar-link-color-active-hover: $text-color;
 
 $topbar-dropdown-label-color: $ci-2;
 $topbar-dropdown-link-bg-hover: $ci-6;
